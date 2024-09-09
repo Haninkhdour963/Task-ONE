@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Registeration Form</h1>
+        <form action=""method="post">
+            <div>
+                <label>*FullName:
+                    <input type="text" name="Full_Name" id="Full_Name"placeholder="ex: Haneen Mousa AL-Khdour" required minlength="6">
+                </label>
+            </div><br>
+            <div>
+                <label>*الاسم بالعربي:
+                    <input type="text" name="Full_NameAr" id="Full_NameAr"placeholder="ex: حنين موسى الخضور"dir="rtl" required minlength="6">
+                </label>
+            </div><br>
+            <div>
+                <label>*Email:
+                    <input type="email" name="Email" id="Email"placeholder="ex: example@gmail.com "required>
+                </label>
+            </div><br>
+            <label>*Age:
+                <input type="number" name="Age" id="Agel"placeholder="ex: 25-33 "required min="25"max="33">
+            </label>
+        </div><br>
+            <div>
+                <label>*Password:
+                    <input type="password" name="Password" id="Password"placeholder="ex: ********* "required minlength="8">
+                </label>
+            </div><br>
+            <div>
+                <label>*Confirm Password:
+                    <input type="password" name="ConfirmPassword" id="ConfirmPassword"placeholder="ex: ********* "required minlength="8">
+                </label>
+            </div><br>
+            <div>
+                <label>*Mobilephone:
+                    <input type="tel" name="Mobilephone" id="Mobilephone"placeholder="ex: +962799376539 "required minlength="10"maxlength="15">
+                </label>
+            </div><br>
+        
+            <div>
+                <label>*Starting Day:
+                    <input type="date" name="Starting_Day" id="Starting_Day"required>
+                </label>
+            </div><br>
+            <div>
+                <label>*Expected Salary:
+                    <input type="irange" name="Salary" id="Salary"placeholder="ex: 1000 "required min="800"max="2000"step="100">
+                </label>
+            </div><br>
+            <div>
+                <h5>Available time per day:</h5>
+                <label>*Start :
+                    <input type="time" name="Start" id="Start"required >
+                </label>
+                <label>*Finish:
+                    <input type="time" name="Finish" id="Finish"required >
+                </label>
+            </div><br>
+            <div>
+                <label>*Favorite Color:
+                    <input type="color" name="Fav_Color" id="Fav_Color"required>
+                </label>
+            </div><br>
+            <div>
+                <label>*Upload CV:
+<input type="file" name="upload_CV" id="upload_CV"required >
+                </label>
+            </div><br>
+            <div>
+                <label>Bio En:
+                    <textarea name="notes" id="notes" rows="10"placeholder="Bio"required minlength="30" maxlength="500"></textarea>
+                </label>
+            </div><br>
+            <div>
+                <label>Bio Ar:
+                    <textarea name="notesAr" id=notesAr"" rows="10"placeholder="اكتب عنك" dir="rtl"required></textarea>
+                </label>
+            </div><br>
+            <div>
+                <input type="submit"value="Apply Now">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

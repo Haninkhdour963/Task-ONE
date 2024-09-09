@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="Ar"dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>طلب التقدم للوظيفة</h1>
+        <form action=""method="post">
+            <div>
+                <label>*الاسم كامل:
+                    <input type="text" name="Full_Name" id="Full_Name"placeholder=" حنين موسى الخضور" required minlength="6">
+                </label>
+            </div><br>
+            <div>
+                <label>*الاسم كامل بالانجليزي:
+                    <input type="text" name="Full_Name" id="Full_Name"dir="ltr"  placeholder="ex: Haneen Mousa Mahmoud Al-Khdour" required minlength="6">
+                </label>
+            </div><br>
+            
+            <div>
+                <label>*الايميل:
+                    <input type="email" name="Email" id="Email"placeholder=" example@gmail.com "required>
+                </label>
+            </div><br>
+            <label>*العمر:
+                <input type="number" name="Age" id="Age"placeholder="25-33 "required min="25"max="33">
+            </label>
+        </div><br>
+            <div>
+                <label>*كلمة المرور:
+                    <input type="password" name="Password" id="Password"placeholder=" ********* "required minlength="8">
+                </label>
+            </div><br>
+            <div>
+                <label>*تأكيد كلمة المرور:
+                    <input type="password" name="ConfirmPassword" id="ConfirmPassword"placeholder=" ********* "required minlength="8">
+                </label>
+            </div><br>
+            <div>
+                <label>*رقم الموبايل:
+                    <input type="tel" name="Mobilephone" id="Mobilephone"placeholder=" +962799376539 "required minlength="10"maxlength="15">
+                </label>
+            </div><br>
+        <div>
+            <p>*المهارات التقنية:</p>
+            <label>HTML
+                <input type="checkbox" name="skills" id="skills"value="HTML"checked>
+            </label>
+            <label>
+                <input type="checkbox" name="skills" id="skills"value="CSS">CSS
+            </label>
+            <label>
+                <input type="checkbox" name="skills" id="skills"value="JS"checked>JS
+            </label>
+            <label>
+                <input type="checkbox" name="skills" id="skills"value="BOOTSTRAP">BOOTSTRAP
+            </label>
+        </div><br>
+        <div>
+            <p>الجنس</p>
+            <label>ذكر 
+                <input type="radio" name="male" id="male"value="male">
+            </label>
+            <label>أنثى
+                <input type="radio" name="female" id="female"value="female"checked>
+            </label>
+        </div><br>
+            <div>
+                <label>*تاريخ البدء:
+                    <input type="date" name="Starting_Day" id="Starting_Day"required>
+                </label>
+            </div><br>
+            <div>
+                <label>*الراتب المتوقع:
+                    <input type="irange" name="Salary" id="Salary"placeholder=" 1000 "required min="800"max="2000"step="100">
+                </label>
+            </div><br>
+            <div>
+                <h5>الراتب المتوقع:</h5>
+                <label>*البداية :
+                    <input type="time" name="Start" id="Start"required >
+                </label>
+                <label>*الانتهاء:
+                    <input type="time" name="Finish" id="Finish"required >
+                </label>
+            </div><br>
+            <div>
+                <label>*اللون المفضل:
+                    <input type="color" name="Fav_Color" id="Fav_Color"required>
+                </label>
+            </div><br>
+            <div>
+                <label>*ارفق السيرة الذاتية:
+<input type="file" name="upload_CV" id="upload_CV"required >
+                </label>
+            </div><br>
+            <div>
+                <label>نبذه عنك:
+                    <textarea name="bio" id="bio" rows="10"placeholder="اكتب من فضلك نبذه عنك"required minlength="30" maxlength="500"></textarea>
+                </label>
+            </div><br>
+            <div>
+                <label>نبذة عنك بالانجليزي:
+                    <textarea name="bioEn" id="bioEn" rows="10"placeholder="please write about you here"dir="ltr" minlength="30" maxlength="500"></textarea>
+                </label>
+            </div><br>
+            <div>
+             
+            <div>
+                <input type="submit"value="ارسل طلبك الان">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

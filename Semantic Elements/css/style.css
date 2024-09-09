@@ -1,0 +1,389 @@
+/* Reset some default browser styles */
+body, ul, li, a,body, h2, p, form,input  {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 2rem;
+    
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8d8953;
+    padding: 0.5rem 1rem;
+}
+
+/* Brand logo styling */
+.navbar-brand a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Navigation links styling */
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    color: rgb(248, 228, 11);
+    font-style: oblique;
+    font-weight: bolder; 
+}
+
+.nav-item a {
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-item a:hover {
+    background-color: #575757;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Container for centering content */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Header styling */
+.site-header {
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #ddd;
+    padding: 1rem 0;
+}
+
+/* Logo styling */
+.logo img {
+    max-height: 30px;
+  
+}
+
+/* Header information styling */
+.header-info {
+    text-align: center;
+}
+
+.site-title {
+    font-size: 2rem;
+    color: #333;
+}
+
+.site-tagline {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-info {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .site-title {
+        font-size: 1.5rem;
+    }
+
+    .site-tagline {
+        font-size: 1rem;
+    }
+}
+/* Reset some default browser styles */
+body, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 2rem;
+}
+
+/* Main container styling */
+.articles-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/* Article styling */
+.article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.article:hover {
+    transform: translateY(-5px);
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+}
+
+.article h2 {
+    font-size: 1.5rem;
+    color: #333;
+    padding: 1rem;
+}
+
+.article p {
+    font-size: 1rem;
+    color: #666;
+    padding: 0 1rem 1rem;
+}
+.article a{
+    font-size: 1rem;
+    color: #666666;
+    padding: 0 1rem 1rem;
+    font-style: oblique;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .articles-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Reset some default browser styles */
+body, h2, p, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 2rem;
+}
+
+/* Sidebar styling */
+.sidebar {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 1rem;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Search section styling */
+.search-section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.search-section form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.search-section input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-section button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-section button:hover {
+    background-color: #0056b3;
+}
+
+/* Advertisements section styling */
+.advertisements-section {
+    margin-top: 2rem;
+}
+
+.advertisements-section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.advertisement {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+.advertisement img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+.advertisement p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        max-width: 100%;
+    }
+}
+/* Reset some default browser styles */
+body, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Footer styling */
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 1rem;
+}
+
+.footer-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    padding-left: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+    font-size: 1rem;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+/* Social icons styling */
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s;
+}
+
+.social-icons a img:hover {
+    filter: brightness(0.7) invert(1);
+}
+
+/* Footer bottom styling */
+.footer-bottom {
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+}

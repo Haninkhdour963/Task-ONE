@@ -1,0 +1,7 @@
+C:\Users\MeskHour\Desktop\Blogs\ArticleFetcher\obj\Debug\net8.0\ArticleFetcher.csproj.AssemblyReference.cache
+C:\Users\MeskHour\Desktop\Blogs\ArticleFetcher\obj\Debug\net8.0\ArticleFetcher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MeskHour\Desktop\Blogs\ArticleFetcher\obj\Debug\net8.0\ArticleFetcher.AssemblyInfoInputs.cache
+C:\Users\MeskHour\Desktop\Blogs\ArticleFetcher\obj\Debug\net8.0\ArticleFetcher.AssemblyInfo.cs
+C:\Users\MeskHour\Desktop\Blogs\ArticleFetcher\obj\Debug\net8.0\ArticleFetcher.csproj.CoreCompileInputs.cache
+C:\Users\MeskHour\Desktop\Blogs\ArticleFetcher\obj\Debug\net8.0\ArticleFetcher.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\MeskHour\Desktop\Blogs\ArticleFetcher\obj\Debug\net8.0\ArticleFetcher.MvcApplicationPartsAssemblyInfo.cache
